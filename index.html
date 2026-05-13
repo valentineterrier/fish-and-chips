@@ -41,26 +41,41 @@
 		<article id="Couleur">
 			<h1>Couleur</h1>
 
+			<script src="swatches.js"></script>
+
 			<div class="color">
 				<h3>«Vert»</h3>
-				<div class="swatch" style="background: hsl(110, 37%, 68%);"></div>
-				<p class="label">#9acc90</p>
-				<p class="label">hsl(110, 37%, 68%)</p>
-				<p class="label">rvb</p>
-				<p class="label">cmjn</p>
+				<div class="swatch" style="background: var(--couleursPrincipale)"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+				<p class="label" data-color-format="hsl"></p>
+				<p class="label" data-color-format="lab"></p>
+				<p class="label" data-color-format="cmyk"></p>
 			</div>
 
 			<div class="color">
 				<h3>«Noir»</h3>
-				<div class="swatch" style="background: black;"></div>
-				<p class="label">#9acc90</p>
-				<p class="label">hsl(110, 37%, 68%)</p>
-				<p class="label">rvb</p>
-				<p class="label">cmjn</p>
+				<div class="swatch" style="background: var(--couleursSecondaire)"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+				<p class="label" data-color-format="hsl"></p>
+				<p class="label" data-color-format="lab"></p>
+				<p class="label" data-color-format="cmyk"></p>
 			</div>
 
+			<div class="color">
+				<h3>Mix</h3>
+				<div class="swatch" style="background: color-mix(in srgb, var(--couleursPrincipale), var(--couleursSecondaire));"></div>
+			</div>
+			
+			<div class="color"></div>
+			<h3>Vert flash</h3>
+			<div class="swatch" style="background-color: hsl( from var(--couleursPrincipale) h s 50%);"></div>
+			<p class="label" data-color-format="hex"></p>
+			<p class="label" data-color-format="rgb"></p>
+
 		</article>
-	<!-- #Couleur -->
+		<!-- #Couleur -->
 
 	</section>
 	<!-- #CharteGraphique -->

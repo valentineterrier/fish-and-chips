@@ -1,6 +1,7 @@
-/* COULEURS */
+/* COULEURS /////////////// */
 :root{
 	--couleursPrincipale: hsl(110, 37%, 68%);
+	--couleursSecondaire: hsl(0, 0%, 0%);
 }
 
 body{ 
