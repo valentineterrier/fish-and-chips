@@ -1,3 +1,8 @@
+* { box-sizing: border-box;}
+
+img { max-width: 100%;}
+
+
 /* COULEURS /////////////// */
 :root{
 	--couleursPrincipale: hsl(110, 37%, 68%);
@@ -11,6 +16,21 @@ body{
 	/* color: color-mix(in srgb, var(--couleursPrincipale) 50%, white 50%) */
 	} 
 
-h1 {
+h2 {
 	font-size: 8vw;
 	}
+
+/* MISE EN PAGE - COLONNES /////////////// */
+.row {
+	display: flex;
+	gap: 1rem;
+}
+
+.row > * {
+	flex: 1;
+}
+@media(max-width: 800px){
+	.row{
+		flex-direction: columns;
+	}
+}
