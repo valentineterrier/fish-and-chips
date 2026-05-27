@@ -34,3 +34,16 @@ h2 {
 		flex-direction: columns;
 	}
 }
+
+:root {
+  /* Typography Scale */
+  --font-size-XS: 0.50rem; /* 8px */
+  --font-size-S: 0.71rem; /* 11.32px */
+  --font-size-M: 1.00rem; /* 16px */
+  --font-size-XL: 1.41rem; /* 22.62px */
+  --font-size-XXL: 2.00rem; /* 32px */
+  --font-size-XXXL: 2.83rem; /* 45.23px */
+  --font-size-XXXXL: 4.00rem; /* 60.44px */
+  --font-size-XXXXL: 5.65rem; /* 90.44px */
+  --font-size-XXXXXL: 8.00rem; /* 128px */
+}
